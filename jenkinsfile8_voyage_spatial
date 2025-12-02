@@ -98,7 +98,7 @@ pipeline {
                     }
                 }
 
-                stage('Vérification du train d'atterrissage') {
+                stage("Vérification du train d'atterrissage") {
                     steps {
                         echo "Vérification du déploiement du train d'atterrissage"
                         sleep 10
